@@ -31,7 +31,7 @@ ej.base.enableRipple(window.ripple)
         pageSettings: { pageCount: 2 },
         allowSorting: true,
         columns: [
-            { field: 'OrderID', headerText: 'Order ID', width: 120, textAlign: 'Right' },
+           // { field: 'OrderID', headerText: 'Order ID', width: 120, textAlign: 'Right' },
             { field: 'OrderIDD',sortComparer: sortComparer,  headerText: 'Order IDD', width: 120, textAlign: 'Right',visible:false },
             { field: 'CustomerName',headerText: 'Customer Name', width: 150 },
             { field: 'OrderDate', headerText: 'Order Date', width: 140, format: 'yMd', textAlign: 'Right' },
